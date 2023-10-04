@@ -27,7 +27,7 @@ int main()
 			if (-1 < x && x <= 2)
 				y = -R;
 			else
-				y = x;
+				y = (R * (x-4)) / 2;
 	cout << endl;
 	cout << "y = " << y << endl;
 	cin.get();
